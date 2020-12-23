@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+
+.radio-buttons-container{
+   display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: lime; */
+    padding-left:25px;
+    padding-right:25px;
+    margin:5px;
+    /* margin-left:10px;
+    margin-right:10px; */
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:lightblue;
+    ;
+}
+.radio-div{
+   padding: 1% 2% 2% 2% ;
+}
+
+.radio-buttons-title-container{
+  display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+   
+    /* padding: 20px 20px 20px 20px ; */
+    /* background-color: lime; */
+}
+
+.gray-title{
+  color: lightslategray;
+  padding-top:2%;
+  
+}
+
+.plan-details-container{
+  display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+   
+    /* background-color: lime; */
+
+}
+.button{
+  /* width:40%; */
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10px;
+  width:40%;
+  padding: 5px;
+}
+
+.plan_container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.plan_details{
+border-radius: 3px;
+border-color: lightblue;
+border-width: 1px;
+background-color: lightblue;
+width:70%;
+}
+.recommendations{
+  border-radius: 3px;
+  /* border-width: 1px; */
+border-color: lightblue;
+border-width: 1px;
+border-style: solid;
+/* background-color: red; */
+width:28%;
+padding:5px;
+margin-left:5px;
+}
+
+.plan_details_row{
+  display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-bottom: 5px; */
+    /* background-color:gray; */
+
+}
+
+.plan_details_text{
+  background-color: white;
+  border-color: lightgray;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  width:18%;
+  /* background-color: mediumpurple; */
+
+}
+
+.plan_details_label{
+  width:33%;
+  /* background-color:green; */
+  font-size: 2.2vw;
+}
+
+.plan_title_label{
+  font-size: 3vw;
+  width:20%;
+  border-color: lightblue;
+  border-width: 1px;
+}
+.plan_title_label2{
+  font-size: 2vw;
+  width:22%;
+  font-weight: bold;
+}
+
+.plan_title_label3{
+  font-size: 2.2vw;
+  width:34%;
+  font-weight: bold;
+}
+
+.plan_title_label4{
+  font-size: 2.2vw;
+  width:34%;
+  /* font-weight: bold; */
+}
+
+.align_left{
+  text-align: left !important;
+}
+
+.div_show{
+  display:block;
+}
+
+.div_hide{
+  display:none;
+}
